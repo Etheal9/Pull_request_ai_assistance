@@ -1,0 +1,19 @@
+
+[project]
+name = "hf-pr-agent"
+version = "0.1.0"
+description = "MCP PR Agent for Hugging Face Hub"
+dependencies = [
+    "fastmcp",
+    "fastapi",
+    "uvicorn",
+    "huggingface_hub",
+    "python-dotenv",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [] # Add any dev-only dependencies here if needed
